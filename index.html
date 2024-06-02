@@ -21,20 +21,38 @@
 
 <body>
     <header>
-        <nav class="d-flex justify-content-around align-items-center">
-            <div><h3 class="f-700">Hockey<span class="text-color">'</span>s</h3></div>
-            <ul class="d-flex align-items-center list-none ">
-                <li class="me-4"><a class="text-decoration-none text-color" href="#">Home</a></li>
-                <li class="me-4"><a class="text-decoration-none" href="#">About</a></li>
-                <li class="me-4"><a class="text-decoration-none" href="#">Pages</a></li>
-                <li class="me-4"><a class="text-decoration-none" href="#">Blog</a></li>
-                <li><a class="text-decoration-none" href="#">Contact</a></li>
-            </ul>
-            <div class="nav-btn">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand f-700" href="#">Hockey<span class="text-color">’</span>s</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link"  href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex align-items-center" role="search">
                 <i class="fa-solid fa-magnifying-glass me-4"></i>
-                <button class="ticket-btn primary-btn">Get Ticket</button>
+                <button class="ticket-btn primary-btn" type="submit">Get Ticket</button>
+              </form>
+            </div>
             </div>
         </nav>
+        
         <div class="banner">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
@@ -42,32 +60,537 @@
                     <img src="./images/1.png" class="d-block img-fluid" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/trophy2.jpg" class="d-block img-fluid" alt="...">
+                    <img src="./images/1.png" class="d-block img-fluid" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="./images/1.png" class="d-block img-fluid" alt="...">
                   </div>
                 </div>
+                <div class="overlay_part ">
+                  <h5 class="mb-3">Meet all the heroes from the field</h5>
+                  <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <i class="bi bi-chevron-right text-danger">hello</i>
-                  <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-                  <!-- <span class="visually-hidden">Previous</span> -->
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
+                
               </div>
+              
         </div>
     </header>
     <main>
-
+      <!-- !progress bar  -->
+      <section class="hockey-club container uni-marg  text-center">
+        <div class="text-center mb-5">
+          <h2 style="margin-top: 30px; margin-bottom: 24px;" class="mb-3 f-700">Professional Hockeys Club</h2>
+          <p style="margin-bottom: 30px;">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat  dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div>
+          
+          <div class="all-cart row py-4">
+            <div class="single-cart col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="progress-bar mb-4 mx-auto">
+                <h3>87%</h3>
+              </div>
+              <h6>Prayer Facility</h6>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="single-cart col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="progress-bar mb-4 mx-auto">
+                <h3>95%</h3>
+              </div>
+              <h6>Experienced Coach</h6>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="single-cart col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="progress-bar mb-4 mx-auto">
+                <h3>90%</h3>
+              </div>
+              <h6>Senior Player</h6>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="single-cart col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="progress-bar mb-4 mx-auto">
+                <h3>80%</h3>
+              </div>
+              <h6>Training Ground</h6>
+              <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- !progress bar  end-->
+      <!-- * program section start-->
+      <section class="section-program uni-marg container rounded-3">
+        <div class="text-center mb-5">
+          <h2 style="margin-top: 30px; margin-bottom: 24px;" class="mb-3 f-700">Program Sections</h2>
+          <p style="margin-bottom: 30px;">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+          <div class="d-lg-flex d-md-block gap-3">
+            <div class="card-img rounded-4">
+              <div class="card-content">
+                <h5 style="color:white" class="card-title fw-bold">Junior Program</h5>
+                <p style="color:white" class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <a href="#" style="background-color: #FF4240; border:none" class="btn btn-primary">Register Now!</a>
+              </div>
+            </div>
+            <div class="card-img card-img-1 rounded-4">
+              <div class="cart-content">
+                <h5 style="color:white" class="card-title fw-bold">Teenager Program</h5>
+                <p style="color:white" class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <a href="#" style="background-color: #FF4240; border:none" class="btn btn-primary">Register Now!</a>
+              </div>
+            </div>
+          </div>
+            <div class="card-img card-img-2 rounded-4">
+              <div class="card-content">
+                <h5 style="color:white" class="card-title fw-bold">Professional Program</h5>
+                <p style="color:white" class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <a href="#" style="background-color: #FF4240; border:none" class="btn btn-primary">Register Now!</a>
+              </div>
+            </div>
+      </section>
+      <!-- ? our new product section -->
+      <section class="container uni-marg product-section">
+        <div class="text-center mb-5">
+          <h2 style="margin-top: 30px; margin-bottom: 24px;" class="mb-3 f-700">Our New Products</h2>
+          <p style="margin-bottom: 30px;">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <!-- all cards -->
+        <div class="row gap-4">
+          <!--! card---1 -->
+          <div class="card mb-3 product" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Images/5.png" class="img-fluid rounded-start w-auto" alt="...">
+              </div>
+              <div class="col-md-8 pt-3 pt-md-1">
+                <div class="card-body p-0 pb-2 border mx-3">
+                  <div style="margin-bottom:12px" class="d-flex  gap-3">
+                    <div class="ratings">
+                      <i style="color:#F99808;" class="fa-solid fa-star"></i>
+                      <span>5.0</span>
+                    </div>
+                    <div class="views">
+                      <i class="fa-regular fa-eye"></i>
+                      <span>20</span>
+                    </div>
+                    <div class="reactions">
+                      <i class="fa-regular fa-heart"></i>
+                      <span>200</span>
+                    </div>
+                  </div>
+                  <h6 class="card-title fw-bold">World Cup Flags Football</h6>
+                  <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <div class="d-flex gap-3">
+                    <span class="fw-bold" style="color:#FF4240">Price - $22.00</span>
+                    <div>
+                      <i style="color:#89898B" class="fa-solid fa-cart-shopping"></i>
+                    <span  style="color:#89898B">Delivery Fee : Free</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card mb-3 product" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Images/6.png" class="img-fluid rounded-start w-auto" alt="...">
+              </div>
+              <div class="col-md-8 pt-3 pt-md-1">
+                <div class="card-body p-0 pb-2 border mx-3">
+                  <div style="margin-bottom:12px" class="d-flex  gap-3">
+                    <div class="ratings">
+                      <i style="color:#F99808;" class="fa-solid fa-star"></i>
+                      <span>5.0</span>
+                    </div>
+                    <div class="views">
+                      <i class="fa-regular fa-eye"></i>
+                      <span>20</span>
+                    </div>
+                    <div class="reactions">
+                      <i class="fa-regular fa-heart"></i>
+                      <span>200</span>
+                    </div>
+                  </div>
+                  <h6 class="card-title fw-bold">World Cup Flags Football</h6>
+                  <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <div class="d-flex gap-3">
+                    <span class="fw-bold" style="color:#FF4240">Price - $22.00</span>
+                    <div>
+                      <i style="color:#89898B" class="fa-solid fa-cart-shopping"></i>
+                    <span  style="color:#89898B">Delivery Fee : Free</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card mb-3 product" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Images/7.png" class="img-fluid rounded-start w-auto" alt="...">
+              </div>
+              <div class="col-md-8 pt-3 pt-md-1">
+                <div class="card-body p-0 pb-2 border mx-3">
+                  <div style="margin-bottom:12px" class="d-flex  gap-3">
+                    <div class="ratings">
+                      <i style="color:#F99808;" class="fa-solid fa-star"></i>
+                      <span>5.0</span>
+                    </div>
+                    <div class="views">
+                      <i class="fa-regular fa-eye"></i>
+                      <span>20</span>
+                    </div>
+                    <div class="reactions">
+                      <i class="fa-regular fa-heart"></i>
+                      <span>200</span>
+                    </div>
+                  </div>
+                  <h6 class="card-title fw-bold">World Cup Flags Football</h6>
+                  <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <div class="d-flex gap-3">
+                    <span class="fw-bold" style="color:#FF4240">Price - $22.00</span>
+                    <div>
+                      <i style="color:#89898B" class="fa-solid fa-cart-shopping"></i>
+                    <span  style="color:#89898B">Delivery Fee : Free</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="card mb-3 product" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Images/8.png" class="img-fluid rounded-start w-auto" alt="...">
+              </div>
+              <div class="col-md-8 pt-3 pt-md-1">
+                <div class="card-body p-0 pb-2 border mx-3">
+                  <div style="margin-bottom:12px" class="d-flex  gap-3">
+                    <div class="ratings">
+                      <i style="color:#F99808;" class="fa-solid fa-star"></i>
+                      <span>5.0</span>
+                    </div>
+                    <div class="views">
+                      <i class="fa-regular fa-eye"></i>
+                      <span>20</span>
+                    </div>
+                    <div class="reactions">
+                      <i class="fa-regular fa-heart"></i>
+                      <span>200</span>
+                    </div>
+                  </div>
+                  <h6 class="card-title fw-bold">World Cup Flags Football</h6>
+                  <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <div class="d-flex gap-3">
+                    <span class="fw-bold" style="color:#FF4240">Price - $22.00</span>
+                    <div>
+                      <i style="color:#89898B" class="fa-solid fa-cart-shopping"></i>
+                    <span  style="color:#89898B">Delivery Fee : Free</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-5 -->
+          <div class="card mb-3 product" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Images/9.png" class="img-fluid rounded-start w-auto" alt="...">
+              </div>
+              <div class="col-md-8 pt-3 pt-md-1">
+                <div class="card-body p-0 pb-2 border mx-3">
+                  <div style="margin-bottom:12px" class="d-flex  gap-3">
+                    <div class="ratings">
+                      <i style="color:#F99808;" class="fa-solid fa-star"></i>
+                      <span>5.0</span>
+                    </div>
+                    <div class="views">
+                      <i class="fa-regular fa-eye"></i>
+                      <span>20</span>
+                    </div>
+                    <div class="reactions">
+                      <i class="fa-regular fa-heart"></i>
+                      <span>200</span>
+                    </div>
+                  </div>
+                  <h6 class="card-title fw-bold">World Cup Flags Football</h6>
+                  <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <div class="d-flex gap-3">
+                    <span class="fw-bold" style="color:#FF4240">Price - $22.00</span>
+                    <div>
+                      <i style="color:#89898B" class="fa-solid fa-cart-shopping"></i>
+                    <span  style="color:#89898B">Delivery Fee : Free</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-6 -->
+          <div class="card mb-3 product" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Images/10.png" class="img-fluid rounded-start w-auto" alt="...">
+              </div>
+              <div class="col-md-8 pt-3 pt-md-1">
+                <div class="card-body p-0 pb-2 border mx-3">
+                  <div style="margin-bottom:12px" class="d-flex  gap-3">
+                    <div class="ratings">
+                      <i style="color:#F99808;" class="fa-solid fa-star"></i>
+                      <span>5.0</span>
+                    </div>
+                    <div class="views">
+                      <i class="fa-regular fa-eye"></i>
+                      <span>20</span>
+                    </div>
+                    <div class="reactions">
+                      <i class="fa-regular fa-heart"></i>
+                      <span>200</span>
+                    </div>
+                  </div>
+                  <h6 class="card-title fw-bold">World Cup Flags Football</h6>
+                  <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <div class="d-flex gap-3">
+                    <span class="fw-bold" style="color:#FF4240">Price - $22.00</span>
+                    <div>
+                      <i style="color:#89898B" class="fa-solid fa-cart-shopping"></i>
+                    <span  style="color:#89898B">Delivery Fee : Free</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- **client section -->
+      <section class="client-section container">
+        <div class="text-center mb-5 py-4">
+          <h2 style="margin-top: 30px; margin-bottom: 24px;" class="mb-3 f-700">Clients Question</h2>
+          <p style="margin-bottom: 30px;">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="d-lg-flex d-block gap-4 p-4">
+          <div>
+            <img src="./Images/11.png" alt="">
+          </div>
+          <div>
+            <div class="accordion mt-lg-0 mt-4" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Our Equipment
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Hockey Training
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Private Lessons
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Ski Touring
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                    Booking                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                    Pricings
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? get in touch section -->
+      <section class="get-in-section container uni-marg">
+        <div class="text-center mb-5 py-4">
+          <h2 style="margin-top: 30px; margin-bottom: 24px;" class="mb-3 f-700">Get In Touch</h2>
+          <p style="margin-bottom: 30px;">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="d-lg-flex justify-content-between">
+          <div style="padding:50px;">
+              <div style="margin-bottom: 24px; padding:30px;">
+                  <img style="margin-bottom: 24px;" src="./Images/Group 1171275317.png" alt="">
+                  <div>
+                    <h6 style="color:gray">Phone Number</h6>
+                    <h6 class="fw-bold">(+62) 123-321-543</h6>
+                  </div>
+              </div>
+              <div style="margin-bottom: 24px; padding:30px;">
+                  <img style="margin-bottom: 24px;" src="./Images/Group 1171275318.png" alt="">
+                  <div>
+                    <h6 style="color:gray">Email</h6>
+                    <h6 class="fw-bold">hockeys@support.com</h6>
+                  </div>
+              </div>
+              <div style="margin-bottom: 24px; padding:30px;">
+                  <img style="margin-bottom: 24px;" src="./Images/Group 1171275321.png" alt="">
+                  <div>
+                    <h6 style="color:gray">Location</h6>
+                    <h6 class="fw-bold">152/1 Mohakhali Wireless Gate</h6>
+                  </div>
+              </div>
+          </div>
+          <!-- form -->
+          <div class="px-4 px-md-0">
+            <div class="d-md-flex d-block  gap-0 gap-md-5 mb-2 mb-md-5">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold">Your Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Full Name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold">Your Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+              </div>
+            </div>
+            <div class="d-md-flex d-block gap-0 gap-md-5 mb-2 mb-md-5">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold">Subject</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Subject">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold">Phone Number</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Phone Number">
+              </div>
+            </div>
+            <div class="w-100 mb-5">
+              <label for="exampleFormControlTextarea1" class="form-label fw-bold">Message</label>
+              <textarea class="form-control py-4" id="exampleFormControlTextarea1" placeholder="Write your message" rows="8"></textarea>
+            </div>
+            <button class="primary-btn w-100">Send Message</button>
+          </div>
+        </div>
+        <div class="social-icon py-5 text-center">
+            <h5 class="fw-bold">Social Media</h5>
+              <i class="fa-brands fa-twitter me-3"></i>
+              <i class="fa-brands fa-facebook me-3"></i>
+              <i class="fa-brands fa-instagram me-3"></i>
+              <i class="fa-brands fa-github"></i>
+        </div>
+      </section>
     </main>
-    <footer>
+    <footer style="background-color: #131318;" class="footer text-white">
+        <div class="container h-75">
+            <div class="row">
+              <div class="col-12 col-md-3 mb-5 mb-md-0">
+                <h4 class="mb-3">Get In Touch</h4>
+                <p>Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <div class="email mb-2">
+                 <i class="fa-regular fa-envelope text-color me-2"></i>
+                 <span>hockeys@support.com</span>
+                </div>
+                <div class="call">
+                 <i class="fa-solid fa-phone text-color me-2"></i>
+                 <span>(+62) 123-321-543</span>
+                </div>
+             </div>
 
+             <div class="col-6 col-md-3 ps-md-5 mb-5 mb-md-0">
+              <h5 class="mb-3">Company</h5>
+                <div>
+                  <li class="list-none mb-2">About us</li>
+                <li class="list-none mb-2">Leadership</li>
+                <li class="list-none mb-2">Careers</li>
+                <li class="list-none mb-2">News & Article</li>
+                <li class="list-none">Legal Notice</li>
+                </div>
+           </div>
+             <div class="col-6 col-md-3 ps-md-5">
+              <h5 class="mb-3">Support</h5>
+                <li class="list-none mb-2">Help Center</li>
+                <li class="list-none mb-2">FAQ</li>
+                <li class="list-none mb-2">Ticket Support</li>
+                <li class="list-none mb-2">Contact Us</li>
+           </div>
+             <div class="col-12 col-md-3 ps-md-5">
+              <h5 class="mb-3">Services</h5>
+                <li class="list-none mb-2">Academy</li>
+                <li class="list-none mb-2">Group Lesson</li>
+                <li class="list-none mb-2">Private Lesson</li>
+                <li class="list-none mb-2">Hockeys for kids</li>
+                <li class="list-none">Hockeys for Adult</li>
+           </div>
+            </div>
+        </div>
     </footer>
     <!-- bootstrap js cdn -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
+
+
+
+<!-- <nav class="d-flex justify-content-around align-items-center">
+  <div><h3 class="f-700">Hockey<span class="text-color">'</span>s</h3></div>
+  <ul class="d-flex align-items-center list-none ">
+      <li class="me-4"><a class="text-decoration-none text-color" href="#">Home</a></li>
+      <li class="me-4"><a class="text-decoration-none" href="#">About</a></li>
+      <li class="me-4"><a class="text-decoration-none" href="#">Pages</a></li>
+      <li class="me-4"><a class="text-decoration-none" href="#">Blog</a></li>
+      <li><a class="text-decoration-none" href="#">Contact</a></li>
+  </ul>
+  <div class="nav-btn">
+      <i class="fa-solid fa-magnifying-glass me-4"></i>
+      <button class="ticket-btn primary-btn">Get Ticket</button>
+  </div>
+</nav> -->

@@ -9,6 +9,9 @@ html, body
     width:100%;
     height:100%;
 }
+.color-white{
+    color:#fff;
+}
 .text-color
 {
     color:#FF4240
@@ -29,13 +32,79 @@ html, body
     color:#fff;
     border-radius:4px;
 }
+
 nav ul > li > a
 {
     font-size:18px;
 }
 nav{
-    margin:40px 120px;
+    margin:30px 120px;
 }
 .banner{
     margin:0 120px;
 }
+.overlay_part{
+    width:48%;
+    background-color: #131318;
+    color:#fff;
+    padding: 25px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 4%;
+    right: 4%;
+}
+.hockey-club{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+ .progress-bar{
+     width: 160px;
+     height: 160px;
+    border-radius: 50%;
+    position:relative;
+}
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border:10px solid #FF4240;
+  }
+  .progress-bar-1{
+    border:10px solid #49D293;
+  }
+  .card-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),url(./Images/2.png);
+    background-repeat: no-repeat;
+    padding:95px 40px;
+}
+  .card-img-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),url(./Images/3.png);
+    background-repeat: no-repeat;
+  }
+  .card-img-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, -1, 0.4)), url(./Images/4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 25px;
+}
+  .uni-marg{
+    margin:100px 0;
+  }
+  .product{
+    padding: 24px;
+  }
+  .gp{
+    gap:4rem;
+  }
+  .footer{
+    padding:100px 100px;
+  }
+ 
