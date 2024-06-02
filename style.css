@@ -43,7 +43,7 @@ nav{
 .banner{
     margin:0 120px;
 }
-.overlay_part{
+/* .overlay_part{
     width:48%;
     background-color: #131318;
     color:#fff;
@@ -52,7 +52,7 @@ nav{
     position: absolute;
     bottom: 4%;
     right: 4%;
-}
+} */
 .hockey-club{
     margin-top: 100px;
     margin-bottom: 50px;
